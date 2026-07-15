@@ -159,9 +159,9 @@ def processar_imagem_na_memoria(file_bytes, nome_arquivo):
 # =========================================================================
 # INTERFACE STREAMLIT
 # =========================================================================
-st.set_page_config(page_title="CellCounter", layout="wide")
+st.set_page_config(page_title="ViaCell", layout="wide")
 
-st.title("🔬 CellCounter")
+st.title("🔬 ViaCell")
 st.markdown("Faça o upload de múltiplas imagens de fluorescência para análise em lote (Suporta JPG, PNG, BMP, TIF/TIFF).")
 
 # Componente de upload múltiplo
@@ -360,6 +360,6 @@ if st.session_state.get("zip_gerado"):
     st.download_button(
         label="Baixar Todas as Imagens + Planilha (ZIP)",
         data=st.session_state.zip_gerado,
-        file_name="CellCounter_Resultados.zip",
+        file_name="ViaCell_Resultados.zip",
         mime="application/zip"
     )

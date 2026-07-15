@@ -1,4 +1,4 @@
-# 🔬 CellCounter
+# 🔬 ViaCell
 
 Aplicativo web para contagem automática de células em imagens de fluorescência (ensaios de viabilidade celular / live-dead assay), com processamento em lote.
 
