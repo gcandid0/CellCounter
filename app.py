@@ -449,7 +449,7 @@ def processar_imagem_na_memoria(file_bytes, nome_arquivo, parametros):
 # =========================================================================
 st.set_page_config(page_title="ViaCell", layout="wide")
 
-st.title("🔬 ViaCell - Detecção de Alta Precisão")
+st.title("🔬 ViaCell")
 st.markdown("Faça o upload de múltiplas imagens de fluorescência para análise em lote.")
 
 with st.sidebar:
